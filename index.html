@@ -27,7 +27,28 @@ section{padding:82px 0;border-bottom:1px solid var(--line)}.section-title{font:7
 
 
 .faq-section{padding:80px 0;background:#0b0b0b}.faq-list{max-width:900px;margin:28px auto 0}.faq-list details{border:1px solid rgba(212,175,55,.3);border-radius:12px;background:#111;margin-bottom:12px;padding:0 20px}.faq-list summary{cursor:pointer;padding:20px 4px;color:#e8d9a8;font-weight:600;list-style:none}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary:after{content:"+";float:right;font-size:22px}.faq-list details[open] summary:after{content:"−"}.faq-list details p{padding:0 4px 20px;margin:0;color:#d0d0d0;line-height:1.7}
-</style></head><body>
+</style>
+<style>
+/* Professional Projects Gallery */
+.project-filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:28px 0 34px}
+.project-filter{background:transparent;color:inherit;border:1px solid rgba(212,175,55,.45);padding:10px 16px;border-radius:999px;cursor:pointer;font:inherit;transition:.25s}
+.project-filter:hover,.project-filter.active{background:#d4af37;color:#111;border-color:#d4af37}
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.project-card{border:1px solid rgba(212,175,55,.25);border-radius:16px;overflow:hidden;background:rgba(255,255,255,.035);transition:transform .25s,box-shadow .25s}
+.project-card:hover{transform:translateY(-5px);box-shadow:0 14px 35px rgba(0,0,0,.25)}
+.project-placeholder{height:230px;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#171717,#292929);color:#d4af37;font-weight:700;letter-spacing:1px;line-height:1.7}
+.project-placeholder small{font-weight:400;letter-spacing:.5px}
+.project-info{padding:20px}
+.project-info span{font-size:12px;color:#d4af37;text-transform:uppercase;letter-spacing:1.2px}
+.project-info h3{margin:8px 0 9px}
+.project-info p{opacity:.78;line-height:1.6;margin:0 0 12px}
+.project-info small{opacity:.65}
+.project-card.hidden{display:none}
+@media(max-width:900px){.projects-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.projects-grid{grid-template-columns:1fr}.project-filter{font-size:13px;padding:9px 12px}}
+</style>
+
+</head><body>
 <header><div class="wrap nav"><a class="brand" href="#home">SUNRISE INTERIOR<small>GOVINDAM CONSTRUCTION</small></a><nav class="navlinks"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#process">Process</a><a href="#contact">Contact</a></nav><a class="btn gold" href="https://wa.me/917878742430">WhatsApp</a></div></header>
 <main>
 <section class="hero" id="home"><div class="wrap"><div class="eyebrow">26 Years of Experience • Jaipur</div><h1>We design.<br>We build.<br>We deliver.</h1><p>Professional interior design, construction and contracting services for private and government projects — from concept and execution to final handover.</p><div class="actions"><a class="btn gold" href="#contact">Discuss Your Project</a><a class="btn" href="#projects">View Projects</a></div><div class="stats"><div class="stat"><strong>26+</strong><small>Years of experience</small></div><div class="stat"><strong>₹1–2 Cr+</strong><small>Typical project scale</small></div><div class="stat"><strong>Jaipur</strong><small>Rajasthan based</small></div></div></div></section>
@@ -100,28 +121,6 @@ section{padding:82px 0;border-bottom:1px solid var(--line)}.section-title{font:7
 <details><summary>How can I request a quotation?</summary><p>Use the Request a Quote form on this website. Your enquiry can be sent directly to our WhatsApp number: 7878742430.</p></details>
 <details><summary>How can I contact you?</summary><p>You can call 7878742430 or 9314673988, send a WhatsApp enquiry, or visit our office at C-126, Moti Marg, opposite Moti Park, Bapu Nagar, Jaipur.</p></details>
 </div></div></section>
-
-<section id="reviews">
-  <div class="wrap">
-    <div class="eyebrow">Customer Reviews</div>
-    <h2 class="section-title">Share Your Experience</h2>
-    <div class="goldline"></div>
-    <p class="lead">We value genuine feedback from our clients. Share your experience with Sunrise Interior / Govindam Construction directly on WhatsApp.</p>
-
-    <div class="review-card" style="margin-top:28px;background:var(--panel);border:1px solid var(--line);padding:30px;border-radius:6px;">
-      <div style="font-size:30px;letter-spacing:4px;">★★★★★</div>
-      <h3 style="margin:12px 0 8px;font:700 26px Georgia,serif;">Have you worked with us?</h3>
-      <p style="color:var(--muted);margin:0 0 22px;">Tell us what you thought about our interior, construction or turnkey project work.</p>
-      <div class="actions">
-        <a class="btn gold" href="https://wa.me/917878742430?text=Hello%20Sunrise%20Interior%20%2F%20Govindam%20Construction%2C%0A%0AI%20would%20like%20to%20share%20my%20customer%20review.%0A%0AReview%3A%20" target="_blank" rel="noopener">💬 Send Review on WhatsApp</a>
-        <a class="btn" href="https://wa.me/917878742430" target="_blank" rel="noopener">View / Contact Us on WhatsApp</a>
-      </div>
-    </div>
-
-    <p style="margin-top:18px;color:var(--muted);font-size:13px;">Only genuine customer reviews will be displayed on our website.</p>
-  </div>
-</section>
-
 <section class="contact" id="contact"><div class="wrap contactbox"><div><div class="eyebrow">Start a Project</div><h2 class="section-title">Let's discuss your requirement.</h2><p class="contactinfo">Office: C-126, Moti Marg, opposite Moti Park, Bapu Nagar, Jaipur</p><p class="contactinfo">Phone: 7878742430 • 9314673988</p></div><div class="actions"><a class="btn gold" href="tel:+917878742430">Call 7878742430</a>
         <a class="btn" href="https://maps.app.goo.gl/umXBuZXpNaVcui1KA?g_st=ic" target="_blank" rel="noopener">📍 Find Us on Google Maps</a><a class="btn" href="https://wa.me/917878742430">Message on WhatsApp</a></div></div></section>
 </main><footer><div class="wrap">© 2026 Sunrise Interior • Govindam Construction. All rights reserved.</div></footer>
@@ -145,6 +144,107 @@ document.getElementById("quoteForm").addEventListener("submit", function(e) {
     "Requirement: " + encodeURIComponent(message);
 
   window.open("https://wa.me/917878742430?text=" + text, "_blank");
+});
+</script>
+
+
+<!-- Professional Projects Gallery -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">OUR PORTFOLIO</span>
+      <h2>Professional Projects Gallery</h2>
+      <p>Explore our work across residential, commercial, government, turnkey and renovation projects.</p>
+    </div>
+
+    <div class="project-filters">
+      <button class="project-filter active" data-filter="all">All Projects</button>
+      <button class="project-filter" data-filter="residential">Residential Interiors</button>
+      <button class="project-filter" data-filter="commercial">Commercial Projects</button>
+      <button class="project-filter" data-filter="government">Government Projects</button>
+      <button class="project-filter" data-filter="turnkey">Turnkey Projects</button>
+      <button class="project-filter" data-filter="renovation">Interior Renovation</button>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card" data-category="residential">
+        <div class="project-placeholder">PROJECT PHOTO<br><small>Upload Photo Later</small></div>
+        <div class="project-info">
+          <span>Residential Interiors</span>
+          <h3>Premium Residential Interior</h3>
+          <p>Complete interior planning and execution with a refined, functional finish.</p>
+          <small>Jaipur, Rajasthan</small>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="commercial">
+        <div class="project-placeholder">PROJECT PHOTO<br><small>Upload Photo Later</small></div>
+        <div class="project-info">
+          <span>Commercial Projects</span>
+          <h3>Commercial Interior Project</h3>
+          <p>Professional commercial spaces designed for practical use and a premium appearance.</p>
+          <small>Jaipur, Rajasthan</small>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="government">
+        <div class="project-placeholder">PROJECT PHOTO<br><small>Upload Photo Later</small></div>
+        <div class="project-info">
+          <span>Government Projects</span>
+          <h3>Government Construction Project</h3>
+          <p>Execution experience across government construction and infrastructure works.</p>
+          <small>Rajasthan</small>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="turnkey">
+        <div class="project-placeholder">PROJECT PHOTO<br><small>Upload Photo Later</small></div>
+        <div class="project-info">
+          <span>Turnkey Projects</span>
+          <h3>Complete Turnkey Project</h3>
+          <p>End-to-end project coordination from planning through execution and finishing.</p>
+          <small>Jaipur, Rajasthan</small>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="renovation">
+        <div class="project-placeholder">PROJECT PHOTO<br><small>Upload Photo Later</small></div>
+        <div class="project-info">
+          <span>Interior Renovation</span>
+          <h3>Interior Renovation Project</h3>
+          <p>Modern renovation solutions that refresh existing spaces while preserving functionality.</p>
+          <small>Jaipur, Rajasthan</small>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="residential">
+        <div class="project-placeholder">PROJECT PHOTO<br><small>Upload Photo Later</small></div>
+        <div class="project-info">
+          <span>Residential Interiors</span>
+          <h3>Contemporary Home Interior</h3>
+          <p>Thoughtful interiors combining clean design, comfort and practical detailing.</p>
+          <small>Jaipur, Rajasthan</small>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const filters=document.querySelectorAll(".project-filter");
+  const cards=document.querySelectorAll(".project-card");
+  filters.forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      filters.forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      const filter=btn.dataset.filter;
+      cards.forEach(card=>{
+        card.classList.toggle("hidden", filter!=="all" && card.dataset.category!==filter);
+      });
+    });
+  });
 });
 </script>
 
